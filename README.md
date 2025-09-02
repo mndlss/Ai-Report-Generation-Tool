@@ -18,13 +18,24 @@ This project is designed for **energy data analysis** (e.g., streetlight RTU dat
 ## 📂 Project Structure  
 
 AI-Report-Generation-Tool/
-│── data/ # Input CSV datasets
-│── model/ # Model client code (LlamaClient class)
-│── reports/ # Generated AI reports
-│── templates/ # Report templates (optional, e.g., markdown/HTML)
-│── utils/ # Helper functions (e.g., formatters, validators)
-│── src/
-│ ├── main.py # Main entry point
-│ ├── llama_client.py # LLaMA client logic
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
+├── data/
+│ └── sample_data.csv # Example input dataset
+│
+├── model/
+│ └── llama_client.py # LLaMA client logic (model interface)
+│
+├── reports/
+│ └── report_sample.md # Example generated AI report
+│
+├── templates/
+│ └── template.md # Example report template (Markdown)
+│
+├── utils/
+│ └── formatter.py # Helper functions (e.g., text formatting)
+│
+├── src/
+│ ├── main.py # Main entry point for running the tool
+│ └── pipeline.py # Orchestration logic (optional, future expansion)
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
