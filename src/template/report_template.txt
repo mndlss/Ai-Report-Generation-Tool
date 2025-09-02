@@ -1,0 +1,10 @@
+Streetlight Energy Report
+=========================
+
+Date Generated: {{date}}
+
+User Prompt:
+{{user_prompt}}
+
+Analysis:
+{{model_response}}
