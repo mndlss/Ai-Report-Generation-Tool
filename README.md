@@ -5,6 +5,7 @@ An **AI-powered report generation system** that leverages **LLaMA 3.2 (via Ollam
 This project is designed for **energy data analysis** (e.g., streetlight RTU datasets) but can be extended to other domains with minimal modifications.  
 
 The reports generated can be as detailed and structured as the user prompts. The more detailed and clear the prompts are, the more satisfactory the reports generated will be.
+
 ---
 
 ## 🚀 Features  
